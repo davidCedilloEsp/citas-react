@@ -1,0 +1,27 @@
+<!-- 
+      Este es el documento quer matiene la estructura 
+      por lo general este docuemnto no se toca, a menos que se agregue un CDN 
+      o se modifique el titulo de la pestaña, idioma de la pagina
+      los modulos se inyectan en este documento 
+
+      en el documento package-lock.json:
+          se cargan las dependencias del pakage.json 
+
+      en la carpeta node modules:
+          esta carpeta alamcena todas las dependencias necesarias de node para 
+          utilizar react, esta carpeta se puede eliminar ya que usando el pakage.json
+          se pueden recuperar
+-->
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Citas react</title>
+  </head>
+  <body class="bg-gray-100 h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

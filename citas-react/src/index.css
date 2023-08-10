@@ -1,0 +1,8 @@
+/*Esta hoja de estilos aplica estilos a toda la app*/
+
+/*Manda allamar los archibos internos de taildwind
+    paquetes requridos para el uso de taildwind
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
